@@ -1,0 +1,89 @@
+/**********************************************************************************************HTML Tags***********************************************************************/
+
+body{
+    background-color:#e7dfd8;
+}
+
+/**********************************************************************************************Classes*************************************************************************/
+.title{
+    text-align:center;
+}
+
+.main-title{
+    font-family:'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin:auto;
+}
+
+.gerry-signature{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 5rem;
+}
+
+.navbar{
+    background-color: #e7dfd8;
+    font-family:'Montserrat', sans-serif;
+    margin:3.5rem auto;
+    width:100%;
+    text-align:center;
+
+}
+.on-page{
+    text-decoration:underline !important;
+}
+
+.navbar a{
+    color:#303030;
+    text-decoration:none;
+    margin:0 1.25em;
+    padding:5px;
+
+}
+
+.navbar a:hover{
+    background-color:#303030;
+    border-radius:3px;
+    color:#e7dfd8;
+    transition:.5s;
+}
+
+.frontpage-video{
+    margin:auto;
+    display:block;
+}
+
+
+.painting-with-descriptions-container{
+    height:13.75rem;
+    position:relative;
+    left:20rem;
+}
+
+.painting-img{
+    height:12.5rem;
+    width:11.3213rem;
+}
+
+.painting-title{
+    font-family:'Montserrat',sans-serif;
+    display:inline-block;
+    position:relative;
+    bottom:11rem;
+    left:1rem;
+}
+.description-container{
+    position:relative;
+    width:40%;
+    left:13.5rem;
+    bottom:12.5rem;
+}
+.painting-description{
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+
+}
+
+.contact-info-container{
+    position:relative;
+    left:42%;
+}
